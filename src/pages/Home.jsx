@@ -93,7 +93,7 @@ export default function Home() {
 
               <FadeUp delay={0.2}>
                 <h1 style={{ fontSize: 'clamp(2.2rem, 5.5vw, 4rem)', fontWeight: 900, letterSpacing: '-0.04em', lineHeight: 1.1, marginBottom: '24px' }}>
-                  Hi, I'm <span className="gradient-text">Dimas Rifqi</span>
+                  Hi, I'm <span className="gradient-text">Dimas Rifqi Ramadhani</span>
                   <br />
                   <span style={{ color: '#94a3b8', fontWeight: 700, fontSize: '0.75em' }}>Full Stack Web Developer</span>
                 </h1>
