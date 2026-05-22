@@ -65,6 +65,17 @@ const experience = [
     badge: 'Project',
     badgeClass: 'badge-violet'
   },
+
+  {
+    role: 'Assistant Laboratorium IT',
+    company: 'SMK PEMUDA KRIAN',
+    location: 'PKL',
+    year: '08/2019 – 10/2019',
+    desc: 'Troubleshooting hardware, software, dan jaringan dasar. Membantu instalasi dan maintenance perangkat laboratorium.',
+    tags: ['Hardware', 'Software', 'Networking'],
+    badge: 'PKL',
+    badgeClass: 'badge-amber'
+  },
 ]
 
 const certificates = [
@@ -136,7 +147,7 @@ export default function Resume() {
             subtitle="Perjalanan profesional saya — pendidikan, pengalaman, keahlian, dan kemampuan bahasa."
           />
           <FadeUp delay={0.2}>
-            <a href="/CV/Dimas Rifqi Ramadhani - CV.pdf" download className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+            <a href="/CV/Dimas Rifqi Ramadhani - Resume.pdf" download className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
               <Download size={16} /> Download CV
             </a>
           </FadeUp>
